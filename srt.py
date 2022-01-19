@@ -20,10 +20,10 @@ if not srt.login():
 
 print('login success')
 
-dep = input('출발역: ').strip()
-arr = input('도착역: ').strip()
-dep_date = input('출발일(20220101): ').strip()
-dep_time = input('시간(103000): ').strip()
+dep = input('출발역: ')
+arr = input('도착역: ')
+dep_date = input('출발일(20220101): ')
+dep_time = input('시간(103000): ')
 
 
 suc = False
